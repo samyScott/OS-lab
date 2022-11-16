@@ -1,0 +1,3 @@
+because 
+ -1. two threads which have the same key will get the same table entry, if we don't use lock, they will get null at the same time and insert the two entries rather than insert one entry and modify the value.
+ -2. insert function has the concurrency problems, 'e->next = n; *p = e' will lose modify.
