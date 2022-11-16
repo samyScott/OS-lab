@@ -1,0 +1,6 @@
+1. a0 stores the address of string "%d %d\n", a1 stores the values of f(8) + 1 which equals 12 and a2 reg stores 13.
+2. function main call function f and g on line 46, the compiler has optimized to inline the function.
+3. printf function address at 0x7d8
+4. ra stones 0x38
+5. He110 World, 57616 modified to 4321, i modified to 0x00726c64
+6. printf a random number in the y memory 
